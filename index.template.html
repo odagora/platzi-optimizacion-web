@@ -68,7 +68,7 @@
     <footer>
       <p>
         Projecto del curso de
-        <a href="https://platzi.com/optimizacion-web" target="_blank"
+        <a href="https://platzi.com/cursos/web-performance/" target="_blank"
           >Optimización Web de Platzi</a
         >
         dictado con el
@@ -96,6 +96,13 @@
           families: ['Muli'],
         },
       })
+    </script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js')
+        })
+      }
     </script>
   </body>
 </html>
