@@ -7,7 +7,7 @@ on:
   schedule:
     # You can use https://crontab.guru to generate the
     # desired cron sheduled :)
-    - cron: '30 12 * * 4' # At 10:00 on Monday.
+    - cron: '35 12 * * 4' # At 10:00 on Monday.
 
 jobs:
   build:
